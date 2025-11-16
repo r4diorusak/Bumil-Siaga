@@ -1,0 +1,37 @@
+RewriteEngine on
+
+RewriteRule ^home$ ?module= [L]
+RewriteRule ^kontak$ ?module=kontak [L]
+RewriteRule ^tentang$ ?module=tentang [L]
+
+RewriteRule ^daftar$ ?module=daftar [L]
+RewriteRule ^pengaturan$ ?module=pengaturan [L]
+RewriteRule ^akun$ ?module=akun [L]
+
+RewriteRule ^bahaya$ ?module=bahaya [L]
+RewriteRule ^perawatan$ ?module=perawatan [L]
+RewriteRule ^aktivitas$ ?module=aktivitas [L]
+
+RewriteRule ^definisi$ ?module=definisi [L]
+RewriteRule ^macam$ ?module=macam [L]
+RewriteRule ^masalah$ ?module=masalah [L]
+RewriteRule ^kriteria$ ?module=kriteria [L]
+
+RewriteRule ^p_sehari_hari$ ?module=p_sehari_hari [L]
+RewriteRule ^hindari_latihan$ ?module=hindari_latihan [L]
+RewriteRule ^aktivitas_fisik$ ?module=aktivitas_fisik [L]
+RewriteRule ^hindari_aktivitas$ ?module=hindari_aktivitas [L]
+
+
+
+
+
+RewriteRule ^dashboard$ ?module=dashboard [L]
+RewriteRule ^halaman$ ?module=halaman [L]
+RewriteRule ^detail_halaman-(.*)\.php$ ?module=detail_halaman&id=$1 [L]
+RewriteRule ^m_akun$ ?module=m_akun [L]
+RewriteRule ^blokir_user-(.*)\.php$ ?module=blokir_user&id=$1 [L]
+RewriteRule ^buka_blokir_user-(.*)\.php$ ?module=buka_blokir_user&id=$1 [L]
+
+
+Options All -Indexes

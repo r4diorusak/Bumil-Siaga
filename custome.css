@@ -1,0 +1,93 @@
+body {
+  font-family: Arial;
+}
+.header-inner-profile-btn {
+    padding-top: 5px;
+    
+}
+
+.input-group-sm>.custom-select, .input-group-sm>.form-control:not(textarea) {
+    height: calc(1.8125rem + 9px);
+}
+
+.font-weight-light {
+    font-weight: 300!important;
+}
+.navbar-badge {
+   
+    right: 2px;
+
+}
+
+.petCard-body {
+    
+    margin-bottom: 12px;
+}
+
+.u-vr6x {
+    margin-bottom: 10px;
+}
+
+.ketpet{
+	margin-left: 15px;
+}
+
+@media (min-width: 768px){
+body:not(.sidebar-mini-md) .content-wrapper, body:not(.sidebar-mini-md) .main-footer, body:not(.sidebar-mini-md) .main-header {
+    
+     margin-left: 1px; 
+}
+}
+
+form.cari input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.cari button {
+  float: left;
+  width: 70px;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.cari button:hover {
+  background: #0b7dda;
+}
+
+form.cari::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.layout-top-nav .wrapper .main-header .brand-image {
+    margin-top: -18px;
+	margin-bottom: -15px;
+    height: 80px;
+}
+
+.petCard-body-details-hdg {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 100%;
+    font-size: 18px;
+    vertical-align: middle;
+    line-height: 1.1;
+    color: #2196f3;
+}
+
+
+
+
+
