@@ -466,6 +466,11 @@ Project ini berlisensi MIT - lihat file [LICENSE](LICENSE) untuk detail.
 - **Tim Bumil-Siaga** - Development team
 - **Contributors** - Semua yang telah berkontribusi
 
+### Lead Developer
+- **Khairul Adha** - PDO Migration & Database Architecture
+  - Email: r4dioz.88@gmail.com
+  - Website: www.rainbowcodec.com
+
 ## 📞 Kontak & Support
 
 - **Issues**: [GitHub Issues](https://github.com/yourusername/bumil-siaga/issues)
